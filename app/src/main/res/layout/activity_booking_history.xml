@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingHistory"
+    android:background="@drawable/haircut">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGrey"
+            android:gravity="center"
+            android:text="Booking History"
+            android:textSize="25sp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/databook"
+            android:layout_width="match_parent"
+            android:layout_height="668dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="68dp"
+            tools:listitem="@layout/bookinghistoryitem"
+            android:layout_below="@id/title"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

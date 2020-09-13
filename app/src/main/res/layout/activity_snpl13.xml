@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".snpl13"
+    android:background="@drawable/haircut">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:stretchColumns="1">
+
+            <GridLayout
+                android:id="@+id/Gridlayout13"
+                android:layout_height="160dp"
+                android:columnCount="2">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#000000"
+                    app:srcCompat="@drawable/snpl13" />
+
+                <TextView
+                    android:id="@+id/menu_snpl13"
+                    android:layout_width="245dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#000000"
+                    android:gravity="center"
+                    android:text="@string/menu_snpl13"
+                    android:textColor="#DCCEFA"
+                    android:textSize="25sp"
+                    android:textStyle="bold" /></GridLayout>
+
+            <TextView
+                android:id="@+id/menu_snpl13_infor"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:gravity="center_vertical"
+                android:text="@string/menu_snpl13_infor"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout>
+                <Button
+                    android:id="@+id/btn_booking13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/booking"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp" /></RelativeLayout>
+
+            <EditText
+                android:id="@+id/enter_c13"
+                android:layout_height="60dp"
+                android:autofillHints=" "
+                android:background="#000000"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/enter_comments"
+                android:inputType="textMultiLine"
+                android:textColor="#DCCEFA"
+                android:textColorHint="#DCCEFA"
+                android:textSize="20sp" />
+
+            <RelativeLayout>
+                <Button
+                    android:id="@+id/btn_c13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/send_comment"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp" /></RelativeLayout>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

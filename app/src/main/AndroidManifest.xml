@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="c.example.mainscreen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PaymentDetail"></activity>
+        <activity android:name=".PaymentHistory" />
+        <activity android:name=".booking_history" />
+        <activity android:name=".BookingHistory" />
+        <activity android:name=".paypal" />
+        <activity android:name=".credit_card" />
+        <activity android:name=".payment" />
+        <activity android:name=".bookingtime" />
+        <activity android:name=".menu" />
+        <activity android:name=".snpl14" />
+        <activity android:name=".snpl13" />
+        <activity android:name=".snpl12" />
+        <activity android:name=".snpl11" />
+        <activity android:name=".snpl10" />
+        <activity android:name=".snpl9" />
+        <activity android:name=".snpl8" />
+        <activity android:name=".snpl7" />
+        <activity android:name=".snpl6" />
+        <activity android:name=".snpl5" />
+        <activity android:name=".snpl4" />
+        <activity android:name=".snpl3" />
+        <activity android:name=".snpl2" />
+        <activity android:name=".services_list" />
+        <activity android:name=".snpl1" />
+        <activity android:name=".reset" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".list_item" />
+        <activity android:name=".list_group" />
+        <activity android:name=".contact_us" />
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity
+            android:name=".about_us"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login_register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

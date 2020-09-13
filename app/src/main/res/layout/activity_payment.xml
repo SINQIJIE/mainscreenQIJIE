@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".payment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/haircut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorGreyTransparent">
+
+        <TextView
+            android:id="@+id/payment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:background="@color/colorGrey"
+            android:text="@string/payment_text"
+            android:textColor="@color/colorBlack"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/order_detail_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="94dp"
+            android:text="@string/order_detail_text"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_detail_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="26dp"
+            android:text="@string/name_label"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/address_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/address_label"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/note_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="27dp"
+            android:text="@string/note_label"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/phone_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address_label"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/phones_label"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/PersonNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="132dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginRight="78dp"
+            android:layout_toEndOf="@+id/name_label"
+            android:layout_toRightOf="@+id/name_label"
+            android:ems="10"
+            android:hint="@string/enter_name_hint"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorOffBlack" />
+
+        <EditText
+            android:id="@+id/AddressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginEnd="79dp"
+            android:layout_marginRight="79dp"
+            android:layout_toEndOf="@+id/address_label"
+            android:layout_toRightOf="@+id/address_label"
+            android:ems="10"
+            android:hint="@string/enter_address_hint"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/colorOffBlack" />
+
+        <EditText
+            android:id="@+id/PhoneText"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="244dp"
+            android:layout_marginEnd="138dp"
+            android:layout_marginRight="138dp"
+            android:ems="10"
+            android:hint="@string/enter_phone_hint"
+            android:inputType="phone"
+            android:textColorHint="@color/colorOffBlack" />
+
+        <EditText
+            android:id="@+id/NotesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginRight="77dp"
+            android:ems="10"
+            android:hint="@string/enter_note_hint"
+            android:inputType="textMultiLine|textPersonName|textCapSentences"
+            android:textColorHint="@color/colorOffBlack" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="121dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="286dp"
+            android:layout_marginLeft="286dp"
+            android:layout_marginBottom="370dp"
+            android:spinnerMode="dropdown" />
+
+
+        <TextView
+            android:id="@+id/Payment_Method_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="268dp"
+            android:text="@string/payment_method_label"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="302dp"
+            android:layout_height="106dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="157dp">
+
+            <RadioButton
+                android:id="@+id/radCOD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/cash_on_delivery_radioButton" />
+
+            <RadioButton
+                android:id="@+id/radPaypal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/paypal_radioButton" />
+
+            <RadioButton
+                android:id="@+id/radCredit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/credit_card_text" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="127dp"
+            android:layout_marginRight="127dp"
+            android:layout_marginBottom="103dp"
+            android:text="@string/btnOk" />
+
+        <Button
+            android:id="@+id/btnCancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="104dp"
+            android:text="@string/btnCancel" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

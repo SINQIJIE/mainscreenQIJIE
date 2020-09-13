@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bookingtime">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/haircut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorGreyTransparent">
+
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="327dp"
+            android:layout_height="298dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="68dp" />
+
+
+
+        <TextView
+            android:id="@+id/Booking_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="14dp"
+            android:background="@android:color/darker_gray"
+            android:text="@string/Booking_text"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/Time_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="263dp"
+            android:text="@string/time_text"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="84dp"
+            android:layout_marginLeft="84dp"
+            android:layout_marginBottom="71dp">
+
+            <RadioButton
+                android:id="@+id/rad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firstbooktimes_text"
+                tools:text="@string/firstbooktimes_text" />
+
+            <RadioButton
+                android:id="@+id/rad2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/secondbooktime_text" />
+
+            <RadioButton
+                android:id="@+id/rad3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thirdbooktime_text" />
+
+            <RadioButton
+                android:id="@+id/rad4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fourbooktime_text" />
+
+            <RadioButton
+                android:id="@+id/rad5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fivebooktime_text" />
+
+            <RadioButton
+                android:id="@+id/rad6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sixbooktime_text" />
+
+            <RadioButton
+                android:id="@+id/rad7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sevenbooktime_text" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="145dp"
+            android:layout_marginRight="145dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/ok_text" />
+
+        <Button
+            android:id="@+id/cancle_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:layout_marginBottom="13dp"
+            android:text="@string/cancle_text"
+            tools:text="@string/cancle_text" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

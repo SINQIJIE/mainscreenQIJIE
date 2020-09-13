@@ -1,0 +1,184 @@
+<resources>
+    ''Main Screen
+    <string name="app_name">mainscreen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_us">ScrollingActivity</string>
+    <string name="large_text">
+
+
+    </string>
+    ''About us
+    <string name="action_settings">Settings</string>
+    <string name="about_htl">Our HTL was established in 2001. We provide clients with various services related to haircuts, such as haircuts and hair coloring. At the same time, we also sell hair care products and shampoos.</string>
+    <string name="hair_cut">Our barbers are all professionally trained. There are no hairstyles they can\'t cut, only hairstyles that customers can\'t think of. As long as they are professionally and flexibly trimmed, anyone can make a gorgeous transformation.</string>
+    <string name="hair_color">Our dyes are both natural and harmless, so customers do not have to worry about sensitive scalp or harmful reactions to the scalp. At the same time, our dye is not easy to decolorize, once the customer\'s hair is dyed with our dye, it will remain forever.</string>
+    <string name="hair_product">Our products are also quality-recognized, and there are absolutely no additives harmful to the human body. So customers can buy and use our products with confidence.</string>
+
+    ''contact us
+    <string name="contact_form_name">Your Name</string>
+
+
+    <string name="contact_form_email">Your Email</string>
+
+
+    <string name="contact_form_subject">Subject</string>
+
+
+    <string name="contact_form_message">Message</string>
+
+
+    <string name="contact_form_button">Send Message</string>
+
+
+    <string name="contact_form_post_message">Please wait! We\'re sending your message to the support department...</string>
+
+
+    <string name="contact_posted">Your message has been successfully delivered.</string>
+
+
+    ''register
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="name">Name</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Don\'t have an account? Sign up</string>
+    <string name="btn_link_to_login">already registered. login me!</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    //main menu
+
+    <string name="reset_password">Please enter your email and we will send you password reset instructions</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="back">Back to log in if remember your password</string>
+    <string name="about_us">About Us</string>
+    <string name="come_get_to_know_us">Come get to know us</string>
+    <string name="list">Come to see our services</string>
+    <string name="services_list">Services List</string>
+
+    <string name="book_services">Faster booking our services</string>
+    <string name="log_out">Log Out</string>
+    <string name="logout">Log out here</string>
+    <string name="history">History</string>
+    <string name="history_pay">Come to see your payment history</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact">Contact us if have any problem</string>
+    <string name="f_a_q">Have questions? Find the answers here</string>
+    <string name="faq">FAQ</string>
+
+    //main screen
+    <string name="contact_us_for_more_information">Contact us for more information</string>
+    <string name="your_email">Email</string>
+    <string name="your_subject">Subject</string>
+    <string name="your_message">Message</string>
+    <string name="send">Send</string>
+    <string name="u00a9_2001_htl_company_private_policy">© 2001 HTL Company | Private Policy</string>
+
+    //services list
+    <string name="Services">Services List</string>
+
+    <string name="menu_snpl1"><t>Hair Cut</t></string>
+    <string name="menu_snpl2"><t>Color</t></string>
+    <string name="menu_snpl3"><t>Hair Perm</t></string>
+    <string name="menu_snpl4"><t>Shampoo Service</t></string>
+    <string name="menu_snpl5"><t>Nail Treatment</t></string>
+    <string name="menu_snpl6"><t>Package 1</t>\n<t>Hair Cut + Color</t></string>
+    <string name="menu_snpl7"><t>Package 2</t>\n<t>Hair Cut + Shampoo Service</t></string>
+    <string name="menu_snpl8"><t>Package 3</t>\n<t>Hair Cut + Hair Perm</t></string>
+    <string name="menu_snpl9"><t>Package 4</t>\n<t>Color + Hair Perm</t></string>
+    <string name="menu_snpl10"><t>Package 5</t>\n<t>Hair Cut + Shampoo Service + Hair Perm </t></string>
+    <string name="menu_snpl11"><t>Package 6</t>\n<t>Hair Cut + Color + Hair Perm</t></string>
+    <string name="menu_snpl12"><t>Package 7</t>\n<t>Color + Hair Perm + Nail Treatment </t></string>
+    <string name="menu_snpl13"><t>Package 8</t>\n<t>Color + Hair Perm + Nail Treatment + Shampoo Service </t></string>
+    <string name="menu_snpl14"><t>Package 9</t>\n<t>Hair Cut + Color + Hair Perm + Shampoo Service </t></string>
+
+    <string name="booking">Booking Now</string>
+    <string name="enter_comments">Enter yours comments \n (At most 20 words)</string>
+    <string name="send_comment">SEND COMMENT</string>
+
+    <string name="menu_snpl1_infor"><t>Price: RM55 - RM90</t>\n<p>For the Hair Cut we have 3 type category of Baber. The First category of Baber is Senior Stylist. Senior Stylist is priced at RM 55 for boys and RM 70 for girls. The Second category of Baber is Professional. Professional is priced at RM 60 for boys and RM 80 for girls. The Third category of Baber is Director. Director is priced at RM 70 for boys and RM 90 for girls. </p></string>
+    <string name="menu_snpl2_infor"><t>Price: RM150 – RM220</t>\n<p>COLOR is a fixed price for men women need to see hair length. We have 3 different prices for girl of colours are short hair, medium hair and long hair. Short Hair is priced at RM 220, Medium Hair is priced at RM 250 and Long Hair is priced at RM 280.The price for a man is RM 150. </p></string>
+    <string name="menu_snpl3_infor"><t>Price: RM180 – RM400</t>\n<p>Hair Perm.We have 2 type of Hair Perm, the first type is Cold Perm is for boys the price is RM 180. Another type is Digital Perm is for a girl the price is depends on the hair length, Short Hair is priced at RM 350, Medium Hair is priced at RM 380 and Long Hair is priced at RM 400. </p></string>
+    <string name="menu_snpl4_infor"><t>Price: RM30 – RM60</t>\n<p>Providing shampoo service is not only to provide customers with a pleasant and relaxing experience, but also to clean the hair and scalp. The uniform rate for boys is RM30. For girls, RM40 for short hair and RM60 for long hair. </p></string>
+    <string name="menu_snpl5_infor"><t>Price: RM70</t>\n<p>To strenghten your natural nails so that they can grow long and healthy, and to insure nail plate is tough to withstand any nail enhancements. </p></string>
+    <string name="menu_snpl6_infor"><t>Price of Hair Cut: RM50 – RM85</t>\n<t>Price of Color: RM140 – RM260</t>\n<p>Hair Cut + Color is a Package 1. The price of this package 1 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. Hair Cut for Senior Stylist is RM 50 for boys and RM 65 for girls. Professional is RM 55 for boys and RM 75 for girls. Director is RM 65 for boys and RM 85 for girls. Color for Boys is RM 140, for girls is depends on the hair length: Short Hair is RM200, Medium Hair is RM 230 and Long Hair is RM 260. </p></string>
+    <string name="menu_snpl7_infor"><t>Price of Hair Cut: RM50 – RM85</t>\n<t>Price of Shampoo Service: RM25 – RM55</t>\n<p>Hair Cut + Shampoo Service is a Package 2. The price of this package 2 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. Hair Cut for Senior Stylist is RM 50 for boys and RM 65 for girls. Professional is RM 55 for boys and RM 75 for girls. Director is RM 65 for boys and RM 85 for girls. Shampoo Service for Boys is RM25. For girls, RM35 for short hair and RM55 for long hair. </p></string>
+    <string name="menu_snpl8_infor"><t>Price of Hair Cut: RM50 – RM85</t>\n<t>Price of Hair Perm: RM165 – RM380</t>\n<p>Hair Cut + Hair Perm is a Package 3. The price of this package 3 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. Hair Cut for Senior Stylist is RM 50 for boys and RM 65 for girls. Professional is RM 55 for boys and RM 75 for girls. Director is RM 65 for boys and RM 85 for girls. Cold Perm for boys is RM 165, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 330, Medium Hair is RM360, Long Hair is RM 380. </p></string>
+    <string name="menu_snpl9_infor"><t>Price of Color: RM140 – RM260</t>\n<t>Price of Hair Perm: RM165 – RM380</t>\n<p>Color + Hair Perm is a Package 4. The price of this package 4 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. Color for Boys is RM 140, for girls is depends on the hair length: Short Hair is RM200, Medium Hair is RM 230 and Long Hair is RM 260. Cold Perm for boys is RM 165, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 330, Medium Hair is RM360, Long Hair is RM 380. </p></string>
+    <string name="menu_snpl10_infor"><t>Price of Hair Cut: RM50 – RM85</t>\n<t>Price of Shampoo Service: RM25 – RM55</t>\n<t>Price of Hair Perm: RM165 – RM380</t>\n<p>Hair Cut + Shampoo Service + Hair Perm is a Package 5. The price of this package 5 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. </p>\n<p>Hair Cut for Senior Stylist is RM 50 for boys and RM 65 for girls. Professional is RM 55 for boys and RM 75 for girls. Director is RM 65 for boys and RM 85 for girls. Shampoo Service for Boys is RM25. For girls, RM35 for short hair and RM55 for long hair. Cold Perm for boys is RM 165, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 330, Medium Hair is RM360, Long Hair is RM 380. </p></string>
+    <string name="menu_snpl11_infor"><t>Price of Hair Cut: RM45 – RM80</t>\n<t>Price of Color: RM130 – RM250</t>\n<t>Price of Hair Perm: RM150 – RM370</t>\n<p>Hair Cut + Color + Hair Perm is a Package 6. The price of this package 6 will be cheaper than monomer. So Customer can enjoy three services at the discounted price. </p>\n<p>Hair Cut for Senior Stylist is RM 45 for boys and RM 60 for girls. Professional is RM 50 for boys and RM 70 for girls. Director is RM60 for boys and RM 80 for girls. Color for Boys is RM 130, for girls is depends on the hair length: Short Hair is RM190, Medium Hair is RM 220 and Long Hair is RM 250. Cold Perm for boys is RM 150, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 320, Medium Hair is RM350, Long Hair is RM 370.</p></string>
+    <string name="menu_snpl12_infor"><t>Price of Color: RM140 – RM260</t>\n<t>Price of Hair Perm: RM165 – RM380</t>\n<t>Price of Nail Treatment: RM60</t>\n <p>Color + Hair Perm + Nail Treatment is a Package 7. The price of this package 7 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. </p>\n<p>Color for Boys is RM 140, for girls is depends on the hair length: Short Hair is RM200, Medium Hair is RM 230 and Long Hair is RM 260. Cold Perm for boys is RM 165, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 330, Medium Hair is RM360, Long Hair is RM 380. Nail Treatment can strenghten your natural nails so that they can grow long and healthy, and to insure nail plate is tough to withstand any nail enhancements. </p></string>
+    <string name="menu_snpl13_infor"><t>Price of Color: RM140 – RM260</t>\n<t>Price of Hair Perm: RM165 – RM380</t>\n<t>Price of Nail Treatment: RM60</t>\n<t>Price of Shampoo Service: RM25 – RM55</t>\n <p>Color + Hair Perm + Nail Treatment + Shampoo Service is a Package 8. The price of this package 8 will be cheaper than the monomer. So Customer can enjoy two services at the discounted price. </p>\n<p>Color for Boys is RM 140, for girls is depends on the hair length: Short Hair is RM200, Medium Hair is RM 230 and Long Hair is RM 260. Cold Perm for boys is RM 165, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 330, Medium Hair is RM360, Long Hair is RM 380. </p>\n<p>Nail Treatment can strenghten your natural nails so that they can grow long and healthy, and to insure nail plate is tough to withstand any nail enhancements. Shampoo Service for Boys is RM25. For girls, RM35 for short hair and RM55 for long hair. </p></string>
+    <string name="menu_snpl14_infor"><t>Price of Hair Cut: RM45 – RM80</t>\n<t>Price of Color: RM130 – RM250</t>\n<t>Price of Hair Perm: RM150 – RM370</t>\n<t>Price of Shampoo Service: RM25 – RM55</t>\n<p>Hair Cut + Color + Hair Perm + Shampoo Service is a Package 9. The price of this package 9 will be cheaper than monomer. So Customer can enjoy three services at the discounted price. </p>\n<p>Hair Cut for Senior Stylist is RM 45 for boys and RM 60 for girls. Professional is RM 50 for boys and RM 70 for girls. Director is RM60 for boys and RM 80 for girls. Color for Boys is RM 130, for girls is depends on the hair length: Short Hair is RM190, Medium Hair is RM 220 and Long Hair is RM 250. </p>\n<p>Cold Perm for boys is RM 150, for girls is Digital Perm and the price is depends on the hair length: Short Hair is RM 320, Medium Hair is RM350, Long Hair is RM 370. Shampoo Service for Boys is RM25. For girls, RM35 for short hair and RM55 for long hair. </p></string>
+
+
+    //booking
+    <string name="Date_text">Date:</string>
+    <string name="Booking_text">Booking Detail</string>
+    <string name="Dates_hint">Enter the date</string>
+    <string name="Date_hint">Enter the date(dd/mm/yyyy)</string>
+    <string name="time_text">Time:</string>
+    <string name="onepm_text">1.00PM</string>
+    <string name="tenam_text">10.00AM</string>
+    <string name="firstbooktimes_text">10.00AM-10.30AM</string>
+    <string name="secondbooktime_text">10.30AM-11.00AM</string>
+    <string name="thirdbooktime_text">11.00AM-11.30AM</string>
+    <string name="fourbooktime_text">11.30AM-12.00PM</string>
+    <string name="fivebooktime_text">1.30PM-2.30PM</string>
+    <string name="sixbooktime_text">2.30PM-3.30PM</string>
+    <string name="sevenbooktime_text">3.30PM-4.00PM</string>
+    <string name="ok_text">OK</string>
+    <string name="cancle_text">Cancle</string>
+
+    //payment
+    <string name="Order_detail_label">Order Detail:</string>
+    <string name="payment_label">Payment</string>
+    <string name="name_label">Name:</string>
+    <string name="address_label">Address:</string>
+    <string name="phone_label">Phone</string>
+    <string name="phones_label">Phone:</string>
+    <string name="note_label">Services:</string>
+    <string name="delivery_method_label">Delivery Method:</string>
+    <string name="delivery_address_radioButton">Delivery to this address</string>
+    <string name="pickup_radioButton">Pick up</string>
+    <string name="cash_methods_label">Cash Method</string>
+    <string name="cash_method_label">Cash Method:</string>
+    <string name="cash_on_delivery_radioButton">Cash</string>
+    <string name="paypal_radioButton">Paypal</string>
+    <string name="enter_name_hint">Enter your name.....</string>
+    <string name="enter_address_hint">Enter your address....</string>
+    <string name="enter_phone_hint">Enter your phone</string>
+    <string name="enter_note_hint">Enter your services</string>
+    <string name="confirm_button">Confrim</string>
+    <string name="payment_text">Payment</string>
+    <string name="order_detail_text">Order Detail:</string>
+    <string name="payment_methods_label">Payment Method</string>
+    <string name="payment_method_label">Payment Method:</string>
+    <string name="btnOk">OK</string>
+    <string name="btnCancel">Cancle</string>
+    <string name="credit_card_text">Credit Card</string>
+
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>
+
+
+
+
+

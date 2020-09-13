@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/haircut"
+    tools:context=".services_list">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TextView
+                android:id="@+id/Services"
+                android:layout_width="306dp"
+                android:layout_height="70dp"
+                android:background="#000000"
+                android:gravity="center"
+                android:text="@string/Services"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#DCCEFA"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.301"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_snpl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl1"
+                android:text="@string/menu_snpl1"
+                android:textColor="#DCCEFA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl1" />
+
+            <Button
+                android:id="@+id/btn_snpl2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl2"
+                android:text="@string/menu_snpl2"
+                android:textColor="#DCCEFA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl2" />
+
+            <Button
+                android:id="@+id/btn_snpl3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl3"
+                android:text="@string/menu_snpl3"
+                android:textColor="#DCCEFA"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl3" />
+
+            <Button
+                android:id="@+id/btn_snpl4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl4"
+                android:text="@string/menu_snpl4"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl4" />
+
+            <Button
+                android:id="@+id/btn_snpl5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl5"
+                android:text="@string/menu_snpl5"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl5" />
+
+            <Button
+                android:id="@+id/btn_snpl6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl6"
+                android:text="@string/menu_snpl6"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl6" />
+
+
+            <Button
+                android:id="@+id/btn_snpl7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl7"
+                android:text="@string/menu_snpl7"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl7" />
+
+            <Button
+                android:id="@+id/btn_snpl8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl8"
+                android:text="@string/menu_snpl8"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl8" />
+
+            <Button
+                android:id="@+id/btn_snpl9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl9"
+                android:text="@string/menu_snpl9"
+                android:textColor="#DCCEFA"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl9" />
+
+            <Button
+                android:id="@+id/btn_snpl10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl10"
+                android:text="@string/menu_snpl10"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl10" />
+
+            <Button
+                android:id="@+id/btn_snpl11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl11"
+                android:text="@string/menu_snpl11"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl11" />
+
+            <Button
+                android:id="@+id/btn_snpl12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl12"
+                android:text="@string/menu_snpl12"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl12" />
+
+            <Button
+                android:id="@+id/btn_snpl13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl13"
+                android:text="@string/menu_snpl13"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl13" />
+
+
+            <Button
+                android:id="@+id/btn_snpl14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:drawableLeft="@drawable/snpl14"
+                android:text="@string/menu_snpl14"
+                android:textColor="#DCCEFA"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/snpl14" />
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
